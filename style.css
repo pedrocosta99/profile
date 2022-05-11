@@ -1,0 +1,85 @@
+body{
+  background-color:rgba(160, 162, 168, 0.2);
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+
+}
+
+div {
+  margin:auto;
+  text-align: center;
+  width: 700px;
+  margin-top: 10px;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .2)
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
+
+img{
+  width: 20%;
+  border-radius: 50%;
+}
+
+.button{
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color:rgb(98, 56, 133);
+  text-decoration: none;
+}
+
+button > a{
+  text-decoration:none;
+}
+
+.button:hover{
+  color: white;
+  background-color:rgb(23, 1, 26);
+}
+
+ul{
+  padding: 0;
+  list-style-type: none;
+  align-items: space-around;
+}
+
+/* Social Media Icons */
+
+li{
+  display: inline-block;
+  font-size: 50px;
+  margin: 0 10px
+}
+
+
+
+li > a{
+  text-decoration: none;
+  color:rgba(140, 140, 141, 0.918);
+}
+
+li > a:hover{
+  color:rgba(0, 0, 0, 1)
+}
